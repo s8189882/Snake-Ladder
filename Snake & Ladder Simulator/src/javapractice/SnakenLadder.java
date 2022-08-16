@@ -38,7 +38,11 @@ public class SnakenLadder {
 			
 		    if (POSITION < 0)
 				POSITION = 0;
-			
+		    else
+		    	if (POSITION > 100) {
+		    		POSITION -= rollDice;
+		    		System.out.println("But you need to score exactly " + (100-POSITION) +" to win the game.");
+		    	}
 		    System.out.println("Current Position : Square " + POSITION);
 			
 		}
