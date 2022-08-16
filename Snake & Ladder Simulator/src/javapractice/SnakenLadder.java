@@ -46,5 +46,10 @@ public class SnakenLadder {
 		    System.out.println("Current Position : Square " + POSITION);
 			
 		}
+		
+		System.out.println();
+		System.out.println("YOU WIN THE GAME!");
+		System.out.println();
+		System.out.println("Total Number of dice rolls played = " + dice);
 	}
 }
